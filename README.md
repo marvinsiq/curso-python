@@ -1,7 +1,9 @@
-# curso-python
 Projetos de exemplo de introdução a linguagem Python
 
+* [Documentação - Python 3.8](https://docs.python.org/pt-br/3.8/index.html)
+* [Tutorial](https://docs.python.org/pt-br/3.8/tutorial/index.html)
 
+# Guia Rápido
 ## For
 
 ```python
