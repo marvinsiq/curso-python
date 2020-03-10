@@ -34,3 +34,47 @@ rodada = 1
 total_de_tentativas = 3
 print("Tentativa {} de {}".format(rodada, total_de_tentativas))
 ```
+## Definindo Funções
+
+```python
+def nome_da_funcao():
+    # todo o código identado faz parte da função
+    print("aprendendo funções")
+```
+
+## Importando um módulo (arquivo)
+
+```python
+# arquivo a.py
+def executa():
+    print("Executando a")
+```
+
+```python
+# arquivo b.py
+def executa():
+    print("Executando b")
+```
+
+```python
+# principal.py
+
+import a
+import b
+```
+
+## Importando um módulo dentro de um diretório
+```python
+from diretorio import arquivo
+```
+
+## Diferenciando um arquivo executado de um importado
+
+*forca.py*
+```python
+def jogar():
+    # código omitido
+
+if (__name__ == "__main__"):
+    jogar()
+```
